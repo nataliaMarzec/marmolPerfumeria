@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Gestion Administracion Comercial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev-start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "npm"
+  ],
+  "author": "natiMarzec708@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
